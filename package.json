@@ -85,7 +85,7 @@
     "test": "npm run mocha && npm run lint",
     "mocha": "NODE_ENV=test mocha",
     "test-watch": "NODE_ENV=test mocha --watch --reporter spec",
-    "postinstall": "npm run build"
+    "prepublish": "npm run build"
   },
   "pre-commit": [
     "test"
